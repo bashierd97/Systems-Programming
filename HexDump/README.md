@@ -9,10 +9,12 @@ The program will open and read every byte in the file specified by the user when
 The program also provides an option to print in binary instead of hex. This is utilized by using the '-b' flag when executing.
 
 ## Example Output: 
+```
 <address>: <B0B1> <B2B3> <B4B5> <B6B7> <B8B9> <BABB> <BCBD> <BEBF> 123456789ABCDEF
  -- Where B0B1 means Byte #0, Byte #1, etc; the 123456789ABCDEF is the
 char/digit/symbol in human readable form
-  
+```
+ 
 ### Example Hex Output: 
 0003540: 0504 0675 6e73 6967 6e65 6420 6368 6172 ...unsigned char
 0003550: 0008 0107 0000 0131 0675 6e73 6967 6e65 .......1.unsigne
