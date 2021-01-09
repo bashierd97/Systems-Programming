@@ -29,10 +29,10 @@ char/digit/symbol in human readable form
 
 **Compile Instructions:** <br />
 To compile this program utilizing the makefile, the user can just enter
-"make" in the command line and the program will compile and generate the 'xbd' executable.
+```make``` in the command line and the program will compile and generate the 'xbd' executable.
 
 If they wanted to manually compile the program and create the 'xbd' executable
-"g++ -o xbd xbd_main.cpp".
+```g++ -o xbd xbd_main.cpp```.
 
 **Execution Instructions:** <br />
 To execute this program the user must enter a few command line arguments. 
@@ -41,11 +41,11 @@ could be either the binary flag (for binary output) or a regular file (for hex o
 
 If the user wanted to set the binary flag, the user would enter the second argument as -b, and follow it with the input file name. 
 For example:
-"xbd -b example.txt" would produce a binary output of 'example.txt' HexDump.
+```xbd -b example.txt``` would produce a binary output of 'example.txt' HexDump.
 
 The user must pass in either 2 or 3 arguments at any given time and the file passed in must be 
 a valid file other wise an error message will be displayed and the program will exit.
 
 If no binary flag is set then automatically the program will assume the user wants the hexadecimal output.
 For example:
-"xbd example.txt" would produce a hex. output of the 'example.txt'.
+```xbd example.txt``` would produce a hex. output of the 'example.txt'.
