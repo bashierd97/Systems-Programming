@@ -16,23 +16,25 @@ char/digit/symbol in human readable form
 ```
  
 ### Example Hex Output: 
+```
 0003540: 0504 0675 6e73 6967 6e65 6420 6368 6172 ...unsigned char
 0003550: 0008 0107 0000 0131 0675 6e73 6967 6e65 .......1.unsigne
-
+```
 ### Example Binary Output: 
+```
 0003540: 00000101 00000100 00000110 01110101 01101110 01110011 ...uns
 0003546: 01101001 01100111 01101110 01100101 01100100 00100000 igned
-
+```
 ## Compiling & Executing
 
-```Compile Instructions:``` 
+**Compile Instructions:** <br />
 To compile this program utilizing the makefile, the user can just enter
 "make" in the command line and the program will compile and generate the 'xbd' executable.
 
 If they wanted to manually compile the program and create the 'xbd' executable
 "g++ -o xbd xbd_main.cpp".
 
-```Execution Instructions:```
+**Execution Instructions:** <br />
 To execute this program the user must enter a few command line arguments. 
 The first command line argument must be the executable program 'xbd' then following that
 could be either the binary flag (for binary output) or a regular file (for hex output).
