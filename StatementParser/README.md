@@ -53,7 +53,8 @@ parser.tab.c <br />
 parser.tab.h <br />
 
 ## Compiling and Executing
-Compile Instructions: To compile this program utilizing the makefile, the user can just enter "make" in the command line and the program will compile and execute the 'parser' executable. The executable will create the output 'parsed.txt' file.
+### Compile Instructions: 
+To compile this program utilizing the makefile, the user can just enter ```make``` in the command line and the program will compile and execute the 'parser' executable. The executable will create the output 'parsed.txt' file.
 
 If they wanted to manually compile the program and create the 'parser' executable: <br />
 To compile bison file: <br />
@@ -62,3 +63,9 @@ To compile flex file: <br />
 "flex parser.l" <br />
 To generate 'parser' executable: <br />
 "gcc -o parser lex.yy.c parser.tab.c -ly -ll" <br />
+
+### Execution Instructions:
+To operate this program all the user has to do is simply type 'make'. The makefile will compile / generate / and execute the proper files. From there, the user may open the 'parsed.txt' file to see the resulting output.
+
+The user must have the proper file already inside the directory, "statements.txt", otherwise the program will not be able to read any input nor output anything.
+
