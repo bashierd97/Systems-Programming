@@ -32,22 +32,22 @@ A **char** is one of: a, b, c, d, e, f, g, h, i, j, k, l m, n, o, p, q, r, s, t,
 An **op** is one of: ```+, -, *, /, %```
 
 ## File Manifest 
-- Prior to compiling -
-makefile
-parser.l (flex)
-parser.y (bison)
-README.txt
-statements.txt
+### Prior to compiling <br />
+makefile <br />
+parser.l (flex) <br />
+parser.y (bison) <br />
+README.txt <br />
+statements.txt <br />
 
-- After compiling & executing -
-makefile
-parser.l (flex)
-parser.y (bison)
-README.txt
-statements.txt
-lex.yy.c
-parsed.txt
-parser  (executable)
-parser.output  (verbose output)
-parser.tab.c
-parser.tab.h
+### After compiling & executing <br />
+makefile <br />
+parser.l (flex) <br />
+parser.y (bison) <br />
+README.txt <br />
+statements.txt <br />
+lex.yy.c <br />
+parsed.txt <br />
+parser  (executable) <br />
+parser.output  (verbose output) <br />
+parser.tab.c <br />
+parser.tab.h <br />
