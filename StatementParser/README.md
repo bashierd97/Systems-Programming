@@ -32,14 +32,14 @@ A **char** is one of: a, b, c, d, e, f, g, h, i, j, k, l m, n, o, p, q, r, s, t,
 An **op** is one of: ```+, -, *, /, %```
 
 ## File Manifest 
-### Prior to compiling <br />
+### Prior to compiling 
 makefile <br />
 parser.l (flex) <br />
 parser.y (bison) <br />
 README.txt <br />
 statements.txt <br />
 
-### After compiling & executing <br />
+### After compiling & executing 
 makefile <br />
 parser.l (flex) <br />
 parser.y (bison) <br />
@@ -51,3 +51,14 @@ parser  (executable) <br />
 parser.output  (verbose output) <br />
 parser.tab.c <br />
 parser.tab.h <br />
+
+## Compiling and Executing
+Compile Instructions: To compile this program utilizing the makefile, the user can just enter "make" in the command line and the program will compile and execute the 'parser' executable. The executable will create the output 'parsed.txt' file.
+
+If they wanted to manually compile the program and create the 'parser' executable: <br />
+To compile bison file: <br />
+"bison -dv parser.y" <br />
+To compile flex file: <br />
+"flex parser.l" <br />
+To generate 'parser' executable: <br />
+"gcc -o parser lex.yy.c parser.tab.c -ly -ll" <br />
