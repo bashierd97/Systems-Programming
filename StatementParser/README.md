@@ -1,5 +1,5 @@
 # Statement Parser (BNF) Using Flex & Bison
-Statement Parser program which recognizes and evaluates valid statements 
+Statement Parser program utilizing Flex & Bison, to recognize and evaluate statements. 
 
 ## Functionality 
 The Parser will read a file from the directory ("statements.txt"), scan the input, and determine if each statement(s) is valid. The program will then output the statement and whether each statement is 'valid / invalid' into a separate text file ("parsed.txt"). If the statement is invalid the program will output why the statement failed and what it was expecting instead.
